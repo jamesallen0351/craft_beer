@@ -10,6 +10,8 @@
 ### I am drinking ale today.”
 ### - Edgar Allan Poe
 
+## Working on a craft beer data set to make some visuals and identify takeaways to discuss over a beer.
+
 
 # Salud
 # Cheers
