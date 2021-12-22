@@ -28,13 +28,13 @@ def beer_df():
     
     return df
 
-df = beer_df
 
 def beer_states():
     '''
     This function will take the count of each state in the data and 
     make a new dataframe with the states and number of breweries
     '''
+    df = beer_df()
     state_df = df['state'].value_counts().rename_axis('states').reset_index(name='breweries')
     
     return state_df
