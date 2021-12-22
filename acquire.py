@@ -38,3 +38,14 @@ def beer_states():
     state_df = df['state'].value_counts().rename_axis('states').reset_index(name='breweries')
     
     return state_df
+
+def top_beers():
+    '''
+    This function will take the count of each beer type in the data and 
+    make a new dataframe with the beer type and total number
+    '''
+    df = beer_df()
+    
+    top_beer = df.beer_style.value_counts().rename_axis('beer_type').reset_index(name='total')
+    
+    return top_beer
