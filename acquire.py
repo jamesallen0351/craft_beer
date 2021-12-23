@@ -23,7 +23,15 @@ def beer_df():
                    how='inner')
     # renaming columns for readability
     df = df.rename(columns = {"style": "beer_style", "name_y": "brewery", "Unnamed: 0": "number", "name_x": "beer"})
-    
+    # dropping columns that are not needed
+    df.drop(['id'], axis=1, inplace=True)
+    df.drop(['brewery_id'], axis=1, inplace=True)
+    # creating average and mean to fill null values
+    avg_abv = 0.05
+    ibu_mean = df.ibu.mean()
+    # filling null values in the beer data
+    df.fillna({'abv' :avg_abv, 'ibu' :ibu_mean}, inplace=True)
+    # saving the beer data to a csv file
     df.to_csv('beer_data.csv')
     
     return df
