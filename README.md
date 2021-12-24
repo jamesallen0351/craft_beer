@@ -10,7 +10,11 @@
 ### I am drinking ale today.”
 ### - Edgar Allan Poe
 
-## Working on a craft beer data set to make some visuals and identify takeaways to discuss over a beer.
+## Working on a craft beer data set to make some visuals, identify takeaways, run some models and then discuss over a beer.
+
+# Executive Summary
+
+- this is where I will write my executive summary
 
 # Planning
 
@@ -19,6 +23,7 @@
     - how many beers are there?
     - where are the beers brewed?
     - is there a most popular beer type? by state?
+    - what state / city are breweries most popular?
 
 # Acquire
 
@@ -32,11 +37,25 @@
 - check for nulls or missing values
 - rename columns for readability
 - create sub dataframes for exploration
+- creat model dataframe for modeling
 
 # Explore
 
 - take a look at some beer stats
+- plot most popular beers
+- look at percentage of popular beers
+- look at beer alcohol by volume
+- look at breweries by state and city
 
+# Modeling
+
+- KNN
+- Decision Tree
+
+# Conclusion
+
+- Beer is good
+- Drink more beer
 
 # Salud
 # Cheers
