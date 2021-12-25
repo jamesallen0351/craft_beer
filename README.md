@@ -29,15 +29,15 @@
 
 - download beer and brewery csv files to local computer
 - import csv files into jupyter notebook
-- merge csv files together into new data frame
+- merge csv files together into new dataframe
 
 # Prepare
 
-- use new data frame from merged csv files
+- use new dataframe from merged csv files
 - check for nulls or missing values
 - rename columns for readability
 - create sub dataframes for exploration
-- creat model dataframe for modeling
+- create model dataframe for modeling
 
 # Explore
 
