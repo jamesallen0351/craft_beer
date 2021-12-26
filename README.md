@@ -1,5 +1,8 @@
 # Craft Beer README.md
 
+![craft_beer](craft_beer.jpeg)
+
+
 ### “Fill with mingled cream and amber,
 ### I will drain that glass again.
 ### Such hilarious visions clamber
@@ -14,7 +17,17 @@
 
 # Executive Summary
 
-- this is where I will write my executive summary
+- Most popular beer is American IPA
+
+- Average abv of beer is 5.8%
+
+- Most popular beer state is Colorado with 47 Breweries
+
+- Most popular beer city is Portland with over 40 breweries
+
+- Average breweries per state is 10
+
+- Random forest best performing model with 48% accuracy on test data
 
 # Planning
 
@@ -49,8 +62,29 @@
 
 # Modeling
 
-- KNN
-- Decision Tree
+### KNN
+
+- Train accuracy: 51%
+
+- Validate accuracy: 38%
+
+- Test accuracy: 36%
+
+### Decision Tree
+
+- Train accuracy: 47%
+
+- Validate accuracy: 45%
+
+- Test accuracy: 44%
+
+### Random Forest
+
+- Train accuracy: 51%
+
+- Validate accuracy: 49%
+
+- Test accuracy: 48%
 
 # Conclusion
 
