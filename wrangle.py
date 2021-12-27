@@ -1,4 +1,4 @@
-# craft beer acquire
+# craft beer wrangle
 
 # imports
 
@@ -36,6 +36,7 @@ def beer_df():
     
     return df
 
+# craft beer states function
 
 def beer_states():
     '''
@@ -47,6 +48,8 @@ def beer_states():
     
     return state_df
 
+# top craft beers function
+
 def top_beers():
     '''
     This function will take the count of each beer type in the data and 
@@ -57,6 +60,8 @@ def top_beers():
     top_beer = df.beer_style.value_counts().rename_axis('beer_type').reset_index(name='total')
     
     return top_beer
+
+# function splitting data into train, validate, and test
 
 from sklearn.model_selection import train_test_split
 
