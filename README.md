@@ -25,11 +25,13 @@
 
 - Most popular beer state is Colorado with 47 Breweries
 
-- Most popular beer city is Portland with over 40 breweries
+- Most popular beer city is Portland with 17 breweries
 
 - Average breweries per state is 10
 
-- Random forest best performing model with 48% accuracy on test data
+- Average breweries per city is roughly 2
+
+- Random forest is the best performing model with 48% accuracy on test data
 
 # Planning
 
